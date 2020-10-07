@@ -30,5 +30,5 @@ public class SplashActivity extends AppCompatActivity {
 
     }
 
-    private void initView() { btnMulai = findViewById(R.id.btn_mulai); }
+    private void initView() { btnMulai = findViewById(R.id.btn_lanjut); }
 }

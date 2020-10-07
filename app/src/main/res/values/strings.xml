@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Breads-Daftar-Batik</string>
+    <string name="developer">Developer</string>
+    <string name="nama">Nama :</string>
+    <string name="ahmad_irfandi">Ahmad Irfandi</string>
+    <string name="jurusan">Jurusan :</string>
+    <string name="sistem_informasi">Sistem Informasi</string>
+    <string name="chandra_julian_adhiyasa">Chandra Julian Adhiyasa</string>
+    <string name="m_erick_apriansyah">M. Erick Apriansyah</string>
+    <string name="muhammad_nuryasin_oktapian">Muhammad Nuryasin Oktapian</string>
+    <string name="lanjut">Lanjut</string>
 </resources>

@@ -43,5 +43,13 @@
 
     <include layout="@layout/content_scrolling" />
 
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_gravity="bottom|end"
+        app:srcCompat="@drawable/ic_share" />
+
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

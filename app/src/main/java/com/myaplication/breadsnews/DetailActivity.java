@@ -1,24 +1,17 @@
 package com.myaplication.breadsnews;
 
 import android.content.Intent;
-import android.media.Image;
-import android.net.Uri;
 import android.os.Bundle;
 
 import com.bumptech.glide.Glide;
-import com.google.android.material.appbar.CollapsingToolbarLayout;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
-import android.provider.MediaStore;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
-
-import java.sql.Blob;
 
 public class DetailActivity extends AppCompatActivity {
 
@@ -48,6 +41,7 @@ public class DetailActivity extends AppCompatActivity {
                 .override(512, 512)
                 .into(ivDetail);
 
+        // Share Info
         FloatingActionButton fab = findViewById(R.id.share);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override

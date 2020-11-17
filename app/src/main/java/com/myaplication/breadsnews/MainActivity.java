@@ -8,11 +8,13 @@ import android.view.View;
 import android.widget.ImageView;
 
 import com.google.android.material.card.MaterialCardView;
+import com.myaplication.breadsnews.alarm.AlarmActivity;
 
 public class MainActivity extends AppCompatActivity {
 
     private MaterialCardView mPengetahuan;
     private MaterialCardView mProfil;
+    private MaterialCardView mAlarm;
 
 
     @Override
@@ -34,11 +36,19 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(getApplicationContext(), AboutActivity.class));
             }
         });
+
+        mAlarm.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(), AlarmActivity.class));
+            }
+        });
     }
 
     private void initView() {
         mPengetahuan = (MaterialCardView) findViewById(R.id.cv_pengetahuan);
         mProfil = (MaterialCardView) findViewById(R.id.cv_profil);
+        mAlarm= (MaterialCardView) findViewById(R.id.cv_alarm);
     }
 
 }

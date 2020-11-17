@@ -16,14 +16,18 @@
             android:name=".alarm.AlarmReceiver"
             android:enabled="true"
             android:exported="false">
-
         </receiver>
 
-        <activity android:name=".alarm.AlarmActivity" />
+        <activity
+            android:name=".alarm.AlarmActivity"
+            android:label="@string/title_activity_detail"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".DetailActivity"
             android:label="@string/title_activity_detail"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".ListBatikActivity"/>
         <activity
             android:name=".ListBatikActivity"
             android:label="List Batik"

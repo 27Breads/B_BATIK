@@ -20,9 +20,10 @@
 
         <activity
             android:name=".alarm.AlarmActivity"
-            android:label="@string/title_activity_detail"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:parentActivityName=".MainActivity" />
+            android:label="Alarm Batik"
+            android:theme="@style/AppTheme"
+            android:parentActivityName=".MainActivity"/>
+
         <activity
             android:name=".DetailActivity"
             android:label="@string/title_activity_detail"

@@ -38,7 +38,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="180dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/Card1" />
+                        android:src="@drawable/kartu1" />
 
                 </LinearLayout>
 
@@ -60,7 +60,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="180dp"
                     android:scaleType="fitXY"
-                    android:src="@drawable/Card2" />
+                    android:src="@drawable/kartu2" />
 
             </com.google.android.material.card.MaterialCardView>
 
@@ -80,7 +80,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="180dp"
                     android:scaleType="fitXY"
-                    android:src="@drawable/Card3" />
+                    android:src="@drawable/kartu3" />
 
             </com.google.android.material.card.MaterialCardView>
 

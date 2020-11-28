@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.myaplication.breadsnews">
+    package="com.myaplication.B_BATIKS">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -13,38 +13,38 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <receiver
-            android:name=".alarm.AlarmReceiver"
+            android:name="com.myaplication.B_BATIKS.alarm.AlarmReceiver"
             android:enabled="true"
             android:exported="false">
         </receiver>
 
         <activity
-            android:name=".alarm.AlarmActivity"
+            android:name="com.myaplication.B_BATIKS.alarm.AlarmActivity"
             android:label="Alarm Batik"
             android:theme="@style/AppTheme"
-            android:parentActivityName=".MainActivity"/>
+            android:parentActivityName="com.myaplication.B_BATIKS.MainActivity"/>
 
         <activity
-            android:name=".DetailActivity"
+            android:name="com.myaplication.B_BATIKS.DetailActivity"
             android:label="@string/title_activity_detail"
             android:theme="@style/AppTheme.NoActionBar"
-            android:parentActivityName=".ListBatikActivity"/>
+            android:parentActivityName="com.myaplication.B_BATIKS.ListBatikActivity"/>
         <activity
-            android:name=".ListBatikActivity"
+            android:name="com.myaplication.B_BATIKS.ListBatikActivity"
             android:label="List Batik"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName="com.myaplication.B_BATIKS.MainActivity" />
         <activity
-            android:name=".AboutActivity"
+            android:name="com.myaplication.B_BATIKS.AboutActivity"
             android:label="Profile Developer"
-            android:parentActivityName=".MainActivity" />
-        <activity android:name=".SplashScreenActivity">
+            android:parentActivityName="com.myaplication.B_BATIKS.MainActivity" />
+        <activity android:name="com.myaplication.B_BATIKS.SplashScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
+        <activity android:name="com.myaplication.B_BATIKS.MainActivity" />
     </application>
 
 </manifest>

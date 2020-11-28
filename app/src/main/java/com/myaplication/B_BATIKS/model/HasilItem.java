@@ -1,4 +1,4 @@
-package com.myaplication.breadsnews.model;
+package com.myaplication.B_BATIKS.model;
 
 import com.google.gson.annotations.SerializedName;
 

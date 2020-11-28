@@ -1,4 +1,4 @@
-package com.myaplication.breadsnews.rest;
+package com.myaplication.B_BATIKS.rest;
 
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;

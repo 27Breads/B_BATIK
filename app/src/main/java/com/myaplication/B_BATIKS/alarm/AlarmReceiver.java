@@ -1,4 +1,4 @@
-package com.myaplication.breadsnews.alarm;
+package com.myaplication.B_BATIKS.alarm;
 
 import android.app.NotificationManager;
 import android.app.PendingIntent;
@@ -8,8 +8,8 @@ import android.content.Intent;
 
 import androidx.core.app.NotificationCompat;
 
-import com.myaplication.breadsnews.MainActivity;
-import com.myaplication.breadsnews.R;
+import com.myaplication.B_BATIKS.MainActivity;
+import com.myaplication.B_BATIKS.R;
 
 public class AlarmReceiver extends BroadcastReceiver {
 

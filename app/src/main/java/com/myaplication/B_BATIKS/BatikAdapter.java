@@ -1,4 +1,4 @@
-package com.myaplication.breadsnews;
+package com.myaplication.B_BATIKS;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -14,7 +14,7 @@ import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
-import com.myaplication.breadsnews.model.HasilItem;
+import com.myaplication.B_BATIKS.model.HasilItem;
 
 import java.util.ArrayList;
 

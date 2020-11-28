@@ -1,6 +1,6 @@
-package com.myaplication.breadsnews.rest;
+package com.myaplication.B_BATIKS.rest;
 
-import com.myaplication.breadsnews.model.BatikModel;
+import com.myaplication.B_BATIKS.model.BatikModel;
 
 import retrofit2.Call;
 import retrofit2.http.GET;

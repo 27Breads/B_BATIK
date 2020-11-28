@@ -1,20 +1,22 @@
-package com.myaplication.breadsnews;
+package com.myaplication.B_BATIKS;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ImageView;
 
 import com.google.android.material.card.MaterialCardView;
-import com.myaplication.breadsnews.alarm.AlarmActivity;
+import com.myaplication.B_BATIKS.alarm.AlarmActivity;
 
 public class MainActivity extends AppCompatActivity {
 
     private MaterialCardView mPengetahuan;
     private MaterialCardView mProfil;
     private MaterialCardView mAlarm;
+    private SharedPreferences mPreferences;
+    private String sharedPrefFile = "com.myaplication.B_BATIKS";
 
 
     @Override
@@ -43,12 +45,22 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(getApplicationContext(), AlarmActivity.class));
             }
         });
+
+        mPreferences = getSharedPreferences(sharedPrefFile, MODE_PRIVATE);
     }
 
     private void initView() {
         mPengetahuan = (MaterialCardView) findViewById(R.id.cv_pengetahuan);
         mProfil = (MaterialCardView) findViewById(R.id.cv_profil);
         mAlarm= (MaterialCardView) findViewById(R.id.cv_alarm);
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+
+        SharedPreferences.Editor preferencesEditor = mPreferences.edit();
+        preferencesEditor.apply();
     }
 
 }

@@ -1,19 +1,16 @@
-package com.myaplication.breadsnews;
+package com.myaplication.B_BATIKS;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.widget.Toast;
 
-import com.myaplication.breadsnews.model.BatikModel;
-import com.myaplication.breadsnews.model.HasilItem;
-import com.myaplication.breadsnews.rest.ApiConfig;
-import com.myaplication.breadsnews.rest.ApiService;
+import com.myaplication.B_BATIKS.model.BatikModel;
+import com.myaplication.B_BATIKS.model.HasilItem;
+import com.myaplication.B_BATIKS.rest.ApiConfig;
+import com.myaplication.B_BATIKS.rest.ApiService;
 
 import java.util.ArrayList;
 

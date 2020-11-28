@@ -1,4 +1,4 @@
-package com.myaplication.breadsnews;
+package com.myaplication.B_BATIKS;
 
 import org.junit.Test;
 

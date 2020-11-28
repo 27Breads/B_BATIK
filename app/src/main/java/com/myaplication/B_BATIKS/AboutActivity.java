@@ -1,4 +1,4 @@
-package com.myaplication.breadsnews;
+package com.myaplication.B_BATIKS;
 
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;

@@ -1,4 +1,4 @@
-package com.myaplication.breadsnews;
+package com.myaplication.B_BATIKS;
 
 import android.content.Intent;
 import android.os.Bundle;

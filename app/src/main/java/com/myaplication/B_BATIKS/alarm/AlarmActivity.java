@@ -1,4 +1,4 @@
-package com.myaplication.breadsnews.alarm;
+package com.myaplication.B_BATIKS.alarm;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.DialogFragment;
@@ -20,8 +20,7 @@ import android.widget.TextView;
 import android.widget.TimePicker;
 import android.widget.Toast;
 import java.util.Calendar;
-import com.myaplication.breadsnews.R;
-import java.text.DateFormat;
+import com.myaplication.B_BATIKS.R;
 
 
 public class AlarmActivity extends AppCompatActivity implements TimePickerDialog.OnTimeSetListener {

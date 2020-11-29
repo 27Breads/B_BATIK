@@ -25,6 +25,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         initView();
 
+        mPreferences = getSharedPreferences(sharedPrefFile, MODE_PRIVATE);
+
         mPengetahuan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -45,8 +47,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(getApplicationContext(), AlarmActivity.class));
             }
         });
-
-        mPreferences = getSharedPreferences(sharedPrefFile, MODE_PRIVATE);
     }
 
     private void initView() {

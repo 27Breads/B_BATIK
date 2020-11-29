@@ -18,7 +18,6 @@ public class MainActivity extends AppCompatActivity {
     private SharedPreferences mPreferences;
     private String sharedPrefFile = "com.myaplication.B_BATIKS";
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
